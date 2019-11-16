@@ -103,9 +103,9 @@
 		1E6E2471237FEFDE00E8B782 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1E6E2459237FACC700E8B782 /* DrawViewController.swift */,
-				1E6E2472237FF01B00E8B782 /* NameViewController.swift */,
 				1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */,
+				1E6E2472237FF01B00E8B782 /* NameViewController.swift */,
+				1E6E2459237FACC700E8B782 /* DrawViewController.swift */,
 				1E6E247A2380194200E8B782 /* SubscribeViewController.swift */,
 			);
 			path = Controller;

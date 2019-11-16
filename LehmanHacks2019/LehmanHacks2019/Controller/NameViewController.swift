@@ -45,4 +45,28 @@ class NameViewController: UIViewController {
             self.view.frame.origin.y = 0
         }
     }
+    @IBAction func continuePressed(_ sender: UIButton) {
+        sender.transform = CGAffineTransform(scaleX: 0.6, y: 0.6)
+        
+        UIView.animate(withDuration: 2.0,
+                       delay: 0,
+                       usingSpringWithDamping: CGFloat(0.20),
+                       initialSpringVelocity: CGFloat(6.0),
+                       options: UIView.AnimationOptions.allowUserInteraction,
+                       animations: {
+                        sender.transform = CGAffineTransform.identity
+        },
+                       completion: { Void in()  }
+        )
+       self.performSegue(withIdentifier: "secondSegue", sender: nil)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "secondSegue") {
+            let vc = segue.destination as! DrawViewController
+            vc.name = nameTextField.text!
+        }
+    }
+    
 }

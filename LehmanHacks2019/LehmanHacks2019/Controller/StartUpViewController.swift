@@ -12,13 +12,14 @@ class StartUpViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var getStartedBtn: UIButton!
     
     var scrollWidth: CGFloat! = 0.0
     var scrollHeight: CGFloat! = 0.0
     
     //data for the slides
-    var titles = ["What is a SET?","How to play","Fun and Educational"]
-    var descs = ["A SET is three cards where each feature, when looked at individually, is either all the same OR all different. Each card contains four features: color (red, purple or green), shape (oval, squiggle or diamond), number (one, two or three) and shading (solid, striped or outlined).","SET is a speed game. The first to see a SET, calls out SET and picks up the three cards that make the SET. There are no turns and no luck. Race to find as many SETs as fast as you can. Be the one who has the most SETs when the cards are gone, and you win! SET is a game of fast-thinking fun!","SET builds cognitive, logical and spatial reasoning skills as well as visual perception skills while playing a game! Because it has a rule of logic (three cards that are all the same or all different in each individual feature), and because players must apply this rule to the spatial array of patterns all at once, they must use both left brain and right brain thought processes. This fun game actually exercises your brain!"]
+    var titles = ["Disability is a matter of perception.","Dyscalculia","Fun and Educational"]
+    var descs = ["Our mission is to spread awareness of dyscalculia along with accessibility to resources that help children with LD. Using our app, children will improve the visual spatial component that is the root cause of dyscalculia, allowing them to create a sense of key math properties.","Dyscalculia is a common learning difference that makes it hard to do math. In comparison to dyslexia, there is much less awareness that dyscalculia exists. When looking at the research literature, for every fourteen research papers on dyslexia, there is only one on dyscalculia","Our sets of challenges builds cognitive, logical and spatial reasoning skills as well as visual perception skills while playing a game! Because it has a rule of logic (three cards that are all the same or all different in each individual feature), and because players must apply this rule to the spatial array of patterns all at once, they must use both left brain and right brain thought processes. This fun game actually exercises your brain!"]
     var imgs = ["mathsPic1","mathsPic2","mathsPic3"]
     
     //get dynamic width and height of scrollview and save it
@@ -52,12 +53,12 @@ class StartUpViewController: UIViewController, UIScrollViewDelegate {
             imageView.contentMode = .scaleAspectFit
             imageView.center = CGPoint(x:scrollWidth/2,y: scrollHeight/2 - 50)
             
-            let txt1 = UILabel.init(frame: CGRect(x:32,y:imageView.frame.maxY,width:scrollWidth-64,height:30))
+            let txt1 = UILabel.init(frame: CGRect(x:0,y:imageView.frame.maxY+2,width:scrollWidth-5,height:30))
             txt1.textAlignment = .center
             txt1.font = UIFont.boldSystemFont(ofSize: 20.0)
             txt1.text = titles[index]
             
-            let txt2 = UILabel.init(frame: CGRect(x:32,y:txt1.frame.maxY+5,width:scrollWidth-64,height:200))
+            let txt2 = UILabel.init(frame: CGRect(x:0,y:txt1.frame.maxY,width:scrollWidth-5,height:200))
             txt2.textAlignment = .center
             txt2.numberOfLines = 0
             
@@ -68,8 +69,6 @@ class StartUpViewController: UIViewController, UIScrollViewDelegate {
             slide.addSubview(txt1)
             slide.addSubview(txt2)
             scrollView.addSubview(slide)
-            
-          
             
         }
         
@@ -100,4 +99,19 @@ class StartUpViewController: UIViewController, UIScrollViewDelegate {
         pageChanged(page)
     }
     
+    @IBAction func getStartedPressed(_ sender: UIButton) {
+        sender.transform = CGAffineTransform(scaleX: 0.6, y: 0.6)
+        
+        UIView.animate(withDuration: 2.0,
+                       delay: 0,
+                       usingSpringWithDamping: CGFloat(0.20),
+                       initialSpringVelocity: CGFloat(6.0),
+                       options: UIView.AnimationOptions.allowUserInteraction,
+                       animations: {
+                        sender.transform = CGAffineTransform.identity
+        },
+                       completion: { Void in()  }
+        )
+        self.performSegue(withIdentifier: "firstSegue", sender: nil)
+    }
 }

@@ -12,6 +12,10 @@ import Vision
 class DrawViewController: UIViewController {
     @IBOutlet weak var canvasView: CanvasView!
     @IBOutlet weak var digitLabel: UILabel!
+    @IBOutlet weak var questionLabel: UILabel!
+    
+    var name = String()
+    
     
     var requests = [VNRequest]()
     
@@ -21,6 +25,9 @@ class DrawViewController: UIViewController {
         setupVision()
         
         NotificationCenter.default.addObserver(self, selector: #selector(helloReceived), name: NSNotification.Name("hello"), object: nil)
+        
+        questionLabel.text = "Hi \(name)! Can You Find the Missing Number?"
+        
     }
     
     
