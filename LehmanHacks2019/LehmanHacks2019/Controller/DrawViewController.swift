@@ -9,7 +9,7 @@
 import UIKit
 import Vision
 
-class ViewController: UIViewController {
+class DrawViewController: UIViewController {
     @IBOutlet weak var canvasView: CanvasView!
     @IBOutlet weak var digitLabel: UILabel!
     

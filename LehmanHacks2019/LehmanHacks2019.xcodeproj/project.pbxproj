@@ -3,24 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1E6E2458237FACC700E8B782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2457237FACC700E8B782 /* AppDelegate.swift */; };
-		1E6E245A237FACC700E8B782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2459237FACC700E8B782 /* ViewController.swift */; };
+		1E6E245A237FACC700E8B782 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2459237FACC700E8B782 /* DrawViewController.swift */; };
 		1E6E245D237FACC800E8B782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E245B237FACC800E8B782 /* Main.storyboard */; };
 		1E6E2460237FACC800E8B782 /* LehmanHacks2019.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E245E237FACC800E8B782 /* LehmanHacks2019.xcdatamodeld */; };
 		1E6E2462237FACCD00E8B782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E2461237FACCD00E8B782 /* Assets.xcassets */; };
 		1E6E2465237FACCD00E8B782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E2463237FACCD00E8B782 /* LaunchScreen.storyboard */; };
 		1E6E246E237FB43A00E8B782 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E246D237FB43A00E8B782 /* CanvasView.swift */; };
 		1E6E2470237FB5D000E8B782 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E246F237FB5CF00E8B782 /* MNISTClassifier.mlmodel */; };
+		1E6E2473237FF01B00E8B782 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2472237FF01B00E8B782 /* NameViewController.swift */; };
+		1E6E2475237FF03A00E8B782 /* StartUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */; };
+		1E6E2477237FF7D600E8B782 /* 2113-dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E2476237FF7D600E8B782 /* 2113-dog.json */; };
+		2BFC725688FBD64459901E7E /* Pods_LehmanHacks2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D75054AE5FE221FB8E050 /* Pods_LehmanHacks2019.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E6E2454237FACC700E8B782 /* LehmanHacks2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LehmanHacks2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6E2457237FACC700E8B782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E6E2459237FACC700E8B782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E6E2459237FACC700E8B782 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		1E6E245C237FACC800E8B782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E6E245F237FACC800E8B782 /* LehmanHacks2019.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LehmanHacks2019.xcdatamodel; sourceTree = "<group>"; };
 		1E6E2461237FACCD00E8B782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,6 +32,12 @@
 		1E6E2466237FACCD00E8B782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E6E246D237FB43A00E8B782 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		1E6E246F237FB5CF00E8B782 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
+		1E6E2472237FF01B00E8B782 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpViewController.swift; sourceTree = "<group>"; };
+		1E6E2476237FF7D600E8B782 /* 2113-dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2113-dog.json"; sourceTree = "<group>"; };
+		3D0D75054AE5FE221FB8E050 /* Pods_LehmanHacks2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LehmanHacks2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D60621E77CE9167E0CC6110 /* Pods-LehmanHacks2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LehmanHacks2019.debug.xcconfig"; path = "Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0863B72AD29F3BEAAD2B9A /* Pods-LehmanHacks2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LehmanHacks2019.release.xcconfig"; path = "Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFC725688FBD64459901E7E /* Pods_LehmanHacks2019.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +57,8 @@
 			children = (
 				1E6E2456237FACC700E8B782 /* LehmanHacks2019 */,
 				1E6E2455237FACC700E8B782 /* Products */,
+				CA0A428FF0EC7AA8D11F1C3D /* Pods */,
+				71F02B8C7BC7427F47F8DD2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +73,11 @@
 		1E6E2456237FACC700E8B782 /* LehmanHacks2019 */ = {
 			isa = PBXGroup;
 			children = (
+				1E6E2476237FF7D600E8B782 /* 2113-dog.json */,
+				1E6E2471237FEFDE00E8B782 /* Controller */,
 				1E6E246F237FB5CF00E8B782 /* MNISTClassifier.mlmodel */,
 				1E6E246C237FB42900E8B782 /* View */,
 				1E6E2457237FACC700E8B782 /* AppDelegate.swift */,
-				1E6E2459237FACC700E8B782 /* ViewController.swift */,
 				1E6E245B237FACC800E8B782 /* Main.storyboard */,
 				1E6E2461237FACCD00E8B782 /* Assets.xcassets */,
 				1E6E2463237FACCD00E8B782 /* LaunchScreen.storyboard */,
@@ -81,6 +95,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1E6E2471237FEFDE00E8B782 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E2459237FACC700E8B782 /* DrawViewController.swift */,
+				1E6E2472237FF01B00E8B782 /* NameViewController.swift */,
+				1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71F02B8C7BC7427F47F8DD2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D0D75054AE5FE221FB8E050 /* Pods_LehmanHacks2019.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0A428FF0EC7AA8D11F1C3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D60621E77CE9167E0CC6110 /* Pods-LehmanHacks2019.debug.xcconfig */,
+				ED0863B72AD29F3BEAAD2B9A /* Pods-LehmanHacks2019.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E6E2469237FACCD00E8B782 /* Build configuration list for PBXNativeTarget "LehmanHacks2019" */;
 			buildPhases = (
+				0D11AD414EADA6C8A2B1CB02 /* [CP] Check Pods Manifest.lock */,
 				1E6E2450237FACC700E8B782 /* Sources */,
 				1E6E2451237FACC700E8B782 /* Frameworks */,
 				1E6E2452237FACC700E8B782 /* Resources */,
+				1FFC820BE2A083B6015F06DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,10 +185,53 @@
 				1E6E2465237FACCD00E8B782 /* LaunchScreen.storyboard in Resources */,
 				1E6E2462237FACCD00E8B782 /* Assets.xcassets in Resources */,
 				1E6E245D237FACC800E8B782 /* Main.storyboard in Resources */,
+				1E6E2477237FF7D600E8B782 /* 2113-dog.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D11AD414EADA6C8A2B1CB02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LehmanHacks2019-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FFC820BE2A083B6015F06DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E6E2450237FACC700E8B782 /* Sources */ = {
@@ -153,10 +239,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E6E2460237FACC800E8B782 /* LehmanHacks2019.xcdatamodeld in Sources */,
-				1E6E245A237FACC700E8B782 /* ViewController.swift in Sources */,
+				1E6E245A237FACC700E8B782 /* DrawViewController.swift in Sources */,
 				1E6E246E237FB43A00E8B782 /* CanvasView.swift in Sources */,
 				1E6E2458237FACC700E8B782 /* AppDelegate.swift in Sources */,
 				1E6E2470237FB5D000E8B782 /* MNISTClassifier.mlmodel in Sources */,
+				1E6E2475237FF03A00E8B782 /* StartUpViewController.swift in Sources */,
+				1E6E2473237FF01B00E8B782 /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +388,7 @@
 		};
 		1E6E246A237FACCD00E8B782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D60621E77CE9167E0CC6110 /* Pods-LehmanHacks2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,6 +407,7 @@
 		};
 		1E6E246B237FACCD00E8B782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0863B72AD29F3BEAAD2B9A /* Pods-LehmanHacks2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
