@@ -61,7 +61,6 @@
 			children = (
 				1E6E2456237FACC700E8B782 /* LehmanHacks2019 */,
 				1E6E2455237FACC700E8B782 /* Products */,
-				CA0A428FF0EC7AA8D11F1C3D /* Pods */,
 				71F02B8C7BC7427F47F8DD2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +80,7 @@
 				1E6E247C23801A1200E8B782 /* 2497-trophy.json */,
 				1E6E2471237FEFDE00E8B782 /* Controller */,
 				1E6E246F237FB5CF00E8B782 /* MNISTClassifier.mlmodel */,
+				CA0A428FF0EC7AA8D11F1C3D /* Pods */,
 				1E6E246C237FB42900E8B782 /* View */,
 				1E6E2457237FACC700E8B782 /* AppDelegate.swift */,
 				1E6E245B237FACC800E8B782 /* Main.storyboard */,
