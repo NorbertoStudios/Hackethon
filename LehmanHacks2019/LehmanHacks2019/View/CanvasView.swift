@@ -17,6 +17,7 @@ class CanvasView: UIView {
     var touchPoint:CGPoint!
     var startingPoint:CGPoint!
     
+    
     override func layoutSubviews() {
         self.clipsToBounds = true // no lines should be visible outside of the view
         self.isMultipleTouchEnabled = false // we only process one touch at a time
@@ -81,6 +82,16 @@ class CanvasView: UIView {
      }
      */
     
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesEnded(touches, with: event)
+        
+       // print("touchesEnded")
+       
+        //Posting a notification
+        NotificationCenter.default.post(name:
+            NSNotification.Name("hello"), object: nil)
+        
+    }
 }
 
 extension UIImage {
