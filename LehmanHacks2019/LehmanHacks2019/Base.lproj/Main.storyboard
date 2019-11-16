@@ -98,11 +98,51 @@
                     <connections>
                         <outlet property="canvasView" destination="b3b-M0-o1V" id="4cK-CY-H0d"/>
                         <outlet property="digitLabel" destination="KkE-9t-zzv" id="Xfb-ri-ETV"/>
+                        <segue destination="ele-sm-ef2" kind="show" identifier="finalSegue" id="E5E-qj-Zvq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-217.39130434782609" y="76.339285714285708"/>
+            <point key="canvasLocation" x="1758" y="120"/>
+        </scene>
+        <!--Subscribe View Controller-->
+        <scene sceneID="quN-Va-xz7">
+            <objects>
+                <viewController id="ele-sm-ef2" customClass="SubscribeViewController" customModule="LehmanHacks2019" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NcI-ph-lzo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congratulations! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUg-sF-xeX">
+                                <rect key="frame" x="21" y="131" width="373" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RGd-rv-mKC" customClass="LOTAnimatedControl">
+                                <rect key="frame" x="21" y="248" width="373" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subscribe to our service for more challenges" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cey-OG-PFS">
+                                <rect key="frame" x="21" y="572" width="373" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ilJ-Ya-W9q"/>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="RGd-rv-mKC" id="thP-ka-Swg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I66-Cl-amU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2578.2608695652175" y="109.82142857142857"/>
         </scene>
         <!--Start Up View Controller-->
         <scene sceneID="Xvf-t2-gFh">
@@ -163,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0sW-bg-VmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873.91304347826099" y="119.86607142857142"/>
+            <point key="canvasLocation" x="-274" y="120"/>
         </scene>
         <!--Name View Controller-->
         <scene sceneID="ntP-5t-sZy">
@@ -273,7 +313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NJB-Pn-H2k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873.91304347826099" y="811.60714285714278"/>
+            <point key="canvasLocation" x="759" y="120"/>
         </scene>
     </scenes>
     <resources>

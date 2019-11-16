@@ -48,12 +48,20 @@ class DrawViewController: UIViewController {
             .filter({$0.confidence > 0.8}) // only choose observations with a confidence of more than 80%
             .map({$0.identifier}) // only choose the identifier string to be placed into the classifications array
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5, execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2, execute: {
              self.digitLabel.text = classifications.first // update the UI with the classification
+            if(self.digitLabel.text == "5"){
             
+                self.performSegue(withIdentifier: "finalSegue", sender: nil)
+            }else{
+                self.digitLabel.text = "Try Again!"
+            }
         })
         
     }
+    
+    
+    
     @IBAction func clearBtnPressed(_ sender: Any) {
         canvasView.clearCanvas()
     }
@@ -92,7 +100,6 @@ class DrawViewController: UIViewController {
             print(error)
         }
     }
-    
    
     
 }

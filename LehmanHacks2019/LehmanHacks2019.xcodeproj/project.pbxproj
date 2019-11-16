@@ -18,6 +18,8 @@
 		1E6E2473237FF01B00E8B782 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2472237FF01B00E8B782 /* NameViewController.swift */; };
 		1E6E2475237FF03A00E8B782 /* StartUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */; };
 		1E6E2477237FF7D600E8B782 /* 2113-dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E2476237FF7D600E8B782 /* 2113-dog.json */; };
+		1E6E247B2380194200E8B782 /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E247A2380194200E8B782 /* SubscribeViewController.swift */; };
+		1E6E247D23801A1300E8B782 /* 2497-trophy.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E247C23801A1200E8B782 /* 2497-trophy.json */; };
 		2BFC725688FBD64459901E7E /* Pods_LehmanHacks2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D75054AE5FE221FB8E050 /* Pods_LehmanHacks2019.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		1E6E2472237FF01B00E8B782 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpViewController.swift; sourceTree = "<group>"; };
 		1E6E2476237FF7D600E8B782 /* 2113-dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2113-dog.json"; sourceTree = "<group>"; };
+		1E6E247A2380194200E8B782 /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		1E6E247C23801A1200E8B782 /* 2497-trophy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2497-trophy.json"; sourceTree = "<group>"; };
 		3D0D75054AE5FE221FB8E050 /* Pods_LehmanHacks2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LehmanHacks2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D60621E77CE9167E0CC6110 /* Pods-LehmanHacks2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LehmanHacks2019.debug.xcconfig"; path = "Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019.debug.xcconfig"; sourceTree = "<group>"; };
 		ED0863B72AD29F3BEAAD2B9A /* Pods-LehmanHacks2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LehmanHacks2019.release.xcconfig"; path = "Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				1E6E2476237FF7D600E8B782 /* 2113-dog.json */,
+				1E6E247C23801A1200E8B782 /* 2497-trophy.json */,
 				1E6E2471237FEFDE00E8B782 /* Controller */,
 				1E6E246F237FB5CF00E8B782 /* MNISTClassifier.mlmodel */,
 				1E6E246C237FB42900E8B782 /* View */,
@@ -101,6 +106,7 @@
 				1E6E2459237FACC700E8B782 /* DrawViewController.swift */,
 				1E6E2472237FF01B00E8B782 /* NameViewController.swift */,
 				1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */,
+				1E6E247A2380194200E8B782 /* SubscribeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6E247D23801A1300E8B782 /* 2497-trophy.json in Resources */,
 				1E6E2465237FACCD00E8B782 /* LaunchScreen.storyboard in Resources */,
 				1E6E2462237FACCD00E8B782 /* Assets.xcassets in Resources */,
 				1E6E245D237FACC800E8B782 /* Main.storyboard in Resources */,
@@ -239,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E6E2460237FACC800E8B782 /* LehmanHacks2019.xcdatamodeld in Sources */,
+				1E6E247B2380194200E8B782 /* SubscribeViewController.swift in Sources */,
 				1E6E245A237FACC700E8B782 /* DrawViewController.swift in Sources */,
 				1E6E246E237FB43A00E8B782 /* CanvasView.swift in Sources */,
 				1E6E2458237FACC700E8B782 /* AppDelegate.swift in Sources */,
